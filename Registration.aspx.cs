@@ -28,14 +28,14 @@ public partial class Registration : System.Web.UI.Page
         {
             TextBox1.Text = string.Empty;
             TextBox2.Text = string.Empty;
-            TextBox3.Text = string.Empty;
+            TextBox4.Text = string.Empty;
             Literal1.Text = "Registration successfully completed!";
         }
         else
         {
             TextBox1.Text = string.Empty;
             TextBox2.Text = string.Empty;
-            TextBox3.Text = string.Empty;
+            TextBox4.Text = string.Empty;
             Literal1.Text = "Error!";
         }
 

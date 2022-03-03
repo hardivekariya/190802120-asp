@@ -44,10 +44,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
            
            
             
-            <asp:TextBox ID="TextBox3" runat="server" class="ggg" name="Phone" placeholder="PHONE"></asp:TextBox>
-            <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" 
-                ErrorMessage="enter phone" ControlToValidate="TextBox3" Display="Dynamic" 
-                ForeColor="Red"></asp:RequiredFieldValidator>
+            
 
          
             <asp:TextBox ID="TextBox4" runat="server" class="ggg" name="Password" placeholder="PASSWORD" TextMode="Password"></asp:TextBox>
