@@ -9,86 +9,21 @@
                 <h2 class="tittle text-center"> Services</h2>
                 <div class="row mt-lg-5 mt-md-4 mt-4">
                     <div class="col-lg-4 about-in text-center">
+                        
+                        <asp:Repeater ID="Repeater1" runat="server">
+                        <ItemTemplate>
                         <div class="card">
-                            <div class="card-body">
+                         <div class="card-body">
                                 <span class="fa fa-bus mb-4"></span>
-                                <h5 class="card-title">Travel by Bus</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur elit,Adipisicing elit tempor.</p>
+                                <h5 class="card-title"><%# Eval("title") %></h5>
+                                <p class="card-text"><%# Eval("descripion") %></p>
                             </div>
                         </div>
+                        </ItemTemplate>
+                        
+                        </asp:Repeater>
                     </div>
-                    <div class="col-lg-4 about-in text-center">
-                        <div class="card">
-                            <div class="card-body">
-                              <span class="fa fa-plane mb-4"></span>
-                                <h5 class="card-title">Travel by Plane</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur elit,Adipisicing elit tempor.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 about-in text-center">
-                        <div class="card">
-                            <div class="card-body">
-                                <span class="fa fa-map-marker mb-4"></span>
-                                <h5 class="card-title">Locations</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur elit,Adipisicing elit tempor.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 about-in mt-lg-4 text-center">
-                        <div class="card">
-                            <div class="card-body">
-                                <span class="fa fa-car mb-4"></span>
-                                <h5 class="card-title">Travel by Car</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur elit,Adipisicing elit tempor.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 about-in mt-lg-4 text-center">
-                        <div class="card">
-                            <div class="card-body">
-                               <span class="fa fa-bus mb-4"></span>
-                                <h5 class="card-title">Travel by Bus</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur elit,Adipisicing elit tempor.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 about-in mt-lg-4 text-center">
-                        <div class="card">
-                            <div class="card-body">
-                               <span class="fa fa-plane mb-4"></span>
-                                <h5 class="card-title">Travel by Plane</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur elit,Adipisicing elit tempor.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 about-in mt-lg-4 text-center">
-                        <div class="card">
-                            <div class="card-body">
-                               <span class="fa fa-map-marker mb-4"></span>
-                                <h5 class="card-title">Locations</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur elit,Adipisicing elit tempor.</p>
-                            </div>
-                        </div>
-                    </div>
-					<div class="col-lg-4 about-in mt-lg-4 text-center">
-                        <div class="card">
-                            <div class="card-body">
-                               <span class="fa fa-bus mb-4"></span>
-                                <h5 class="card-title">Travel by Bus</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur elit,Adipisicing elit tempor.</p>
-                            </div>
-                        </div>
-                    </div>
-					<div class="col-lg-4 about-in mt-lg-4 text-center">
-                        <div class="card">
-                            <div class="card-body">
-                                <span class="fa fa-car mb-4"></span>
-                                <h5 class="card-title"> Travel by Car</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur elit,Adipisicing elit tempor.</p>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>

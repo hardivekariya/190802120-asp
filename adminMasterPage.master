@@ -285,6 +285,23 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </a>
                 </li>
                 <li>
+                    <a href="manageservices.aspx">
+                        <i class="fa fa-tasks"></i>
+                        <span>Manage Services </span>
+                    </a>
+                </li>
+                <li class="sub-menu">
+                    <a href="javascript:;">
+                        <i class="fa fa-tasks"></i>
+                        <span>manage product</span>
+                    </a>
+                    <ul class="sub">
+                        <li><a href="category.aspx">manage category</a></li>
+                        <li><a href="#">manage product</a></li>
+				
+                    </ul>
+                </li>
+                <li>
                     <a href="fontawesome.html">
                         <i class="fa fa-bullhorn"></i>
                         <span>Font awesome </span>
